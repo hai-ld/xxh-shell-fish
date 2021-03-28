@@ -41,3 +41,5 @@ fi
 mkdir fish-portable
 tar -xzf $tarname -C fish-portable
 rm $tarname
+
+cp $CDIR/fish.sh fish-portable/bin
